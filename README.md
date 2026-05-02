@@ -3,7 +3,7 @@
 A modern, interactive developer portfolio showcasing backend-focused projects, system design thinking, and real-world applications.
 
 ## 🌐 Live
-🔗 https://your-portfolio-link.vercel.app
+🔗 [https://your-portfolio-link.vercel.app](https://sri-karthik-portfolio.vercel.app/)
 
 ---
 
