@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="18" fill="#000000"></rect>
+  
+  <!-- Stylized S -->
+  <path d="M30 25 L55 25 L45 40 L65 40 L50 65 L25 65 L35 50 L20 50 Z" fill="#d9ff00"></path>
+
+  <!-- Stylized K -->
+  <path d="M60 25 L70 25 L70 65 L60 65 Z M70 45 L85 25 L95 25 L80 45 L95 65 L85 65 Z" fill="#d9ff00"></path>
+</svg>
