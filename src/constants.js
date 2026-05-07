@@ -28,7 +28,7 @@ export const PROJECTS = [
     description: "A web-based digital library allowing users to browse and explore books interactively.",
     ss: idlImg,
     github: "https://github.com/srikarthikB/interactive-digital-library",
-    live: "https://interactive-digital-library-production.up.railway.app/",
+    live: "https://interactive-digital-library-1.onrender.com/",
     highlights: [
       "Backend logic implemented using Flask",
       "Dynamic content rendering with Jinja2",
