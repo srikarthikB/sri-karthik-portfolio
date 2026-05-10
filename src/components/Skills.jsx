@@ -47,10 +47,27 @@ export default function Skills() {
                       whileHover={{ y: -8, scale: 1.05 }}
                       className="flex flex-col items-center gap-3 group px-4"
                     >
-                      <div className="p-5 rounded-3xl bg-[#022c22] border border-emerald-500/5 group-hover:border-emerald-500/40 group-hover:bg-emerald-500/5 transition-all flex items-center justify-center shadow-xl group-hover:shadow-emerald-500/10">
-                        <i className={`devicon-${item.icon} colored text-5xl grayscale opacity-30 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500`}></i>
-                      </div>
-                      <span className="text-[10px] font-black text-emerald-100/20 uppercase tracking-[0.2em] group-hover:text-emerald-100 transition-colors">{item.name}</span>
+                      <div className="p-5 rounded-3xl bg-[#022c22] border border-emerald-500/10 
+                        group-hover:border-emerald-400/70 
+                        group-hover:bg-emerald-500/10 
+                        transition-all duration-500 
+                        flex items-center justify-center 
+                        shadow-[0_0_20px_rgba(16,185,129,0.08)] 
+                        group-hover:shadow-[0_0_35px_rgba(16,185,129,0.45)]">
+
+                          <i
+                            className={`devicon-${item.icon} colored text-5xl 
+                            grayscale opacity-50 
+                            group-hover:grayscale-0 
+                            group-hover:opacity-100 
+                            group-hover:drop-shadow-[0_0_18px_rgba(16,185,129,0.95)] 
+                            transition-all duration-500`}
+                          ></i>
+                        </div>
+                      <span className="text-[10px] font-black text-emerald-100/30 uppercase tracking-[0.2em] 
+                        group-hover:text-emerald-100 
+                        group-hover:[text-shadow:0_0_12px_rgba(167,243,208,0.8)] 
+                        transition-all duration-500">{item.name}</span>
                     </motion.div>
                   ))}
                 </div>

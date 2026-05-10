@@ -60,8 +60,8 @@ export const SKILLS = {
   ],
 
   dataScience: [
-    { name: "NumPy", icon: "numpy-original" },
-    { name: "Pandas", icon: "pandas-original" },
+    { name: "NumPy", icon: "numpy-plain" },
+    { name: "Pandas", icon: "pandas-plain" },
   ],
 
   tools: [
