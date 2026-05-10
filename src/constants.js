@@ -45,17 +45,25 @@ export const SKILLS = {
     { name: "JavaScript", icon: "javascript-plain" },
     { name: "C", icon: "c-plain" },
   ],
+
   frontend: [
     { name: "HTML5", icon: "html5-plain" },
     { name: "CSS3", icon: "css3-plain" },
     { name: "Tailwind", icon: "tailwindcss-plain" },
   ],
+
   backend: [
     { name: "FastAPI", icon: "fastapi-plain" },
     { name: "Flask", icon: "flask-original" },
     { name: "SQLite", icon: "sqlite-plain" },
     { name: "MySQL", icon: "mysql-plain" },
   ],
+
+  dataScience: [
+    { name: "NumPy", icon: "numpy-original" },
+    { name: "Pandas", icon: "pandas-original" },
+  ],
+
   tools: [
     { name: "Git", icon: "git-plain" },
     { name: "GitHub", icon: "github-original" },
