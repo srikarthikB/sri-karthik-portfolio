@@ -23,6 +23,22 @@ export const PROJECTS = [
     featured: true,
   },
   {
+    id: "mindreader",
+    name: "Mind Reader AI",
+    description: "An AI-powered MBTI personality prediction platform that analyzes user-written text using NLP and machine learning to predict personality types in real time.",
+    ss: mindReaderImg,
+    github: "https://github.com/srikarthikB/personality-ml-model",
+    live: "https://personality-predicitor.vercel.app",
+    highlights: [
+      "Built a hybrid NLP pipeline using TF-IDF vectorization and LinearSVC",
+      "Developed FastAPI backend for real-time personality prediction",
+      "Implemented confidence scoring and dynamic personality insights",
+      "Designed futuristic React frontend with Framer Motion animations",
+      "Integrated backend wake-up detection system for Render cold starts"
+    ],
+    featured: true,
+  },
+  {
     id: "digilib",
     name: "Interactive Digital Library",
     description: "A web-based digital library allowing users to browse and explore books interactively.",
