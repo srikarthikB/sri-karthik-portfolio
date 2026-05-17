@@ -4,6 +4,7 @@
  */
 import pitwallImg from "./assets/images/pitwall-ss.png";
 import idlImg from "./assets/images/idl-ss.png";
+import mindReaderImg from "../assets/mindreader.png";
 
 export const PROJECTS = [
   {
