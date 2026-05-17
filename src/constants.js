@@ -37,7 +37,6 @@ export const PROJECTS = [
       "Designed futuristic React frontend with Framer Motion animations",
       "Integrated backend wake-up detection system for Render cold starts"
     ],
-    featured: true,
   },
   {
     id: "digilib",
