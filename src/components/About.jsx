@@ -17,6 +17,10 @@ export default function About() {
             <h1 className="text-5xl md:text-6xl font-black text-white tracking-tighter">About Me</h1>
           </motion.div>
           <motion.button 
+            href="/kar-resume.pdf"
+            download
+            initial={{ opacity: 0, x: 20 }}
+            whileInView={{ opacity: 1, x: 0 }}
             whileHover={{ scale: 1.05, boxShadow: "0 0 25px rgba(16, 185, 129, 0.4)", backgroundColor: "rgba(16, 185, 129, 0.2)" }}
             whileTap={{ scale: 0.95 }}
             className="flex items-center gap-3 px-8 py-4 bg-emerald-500/10 backdrop-blur-md border border-emerald-500/20 text-emerald-400 font-bold rounded-xl transition-all"
